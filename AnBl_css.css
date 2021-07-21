@@ -1,0 +1,566 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+ }
+ 
+ 
+ *,
+ *:before,
+ *:after {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+ 
+ 
+ :focus,
+ :active {
+   outline: none;
+ }
+ a:focus,
+ a:active {
+   outline: none;
+ }
+ 
+ 
+ nav,
+ footer,
+ header,
+ aside {
+   display: block;
+ }
+ 
+ 
+ html,
+ body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+ }
+ 
+ 
+ input,
+ button,
+ textarea {
+   font-family: inherit;
+ }
+ 
+ 
+ input::-ms-clear {
+   display: none;
+ }
+ button {
+   cursor: pointer;
+ }
+ button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+ }
+ a,
+ a:visited {
+   text-decoration: none;
+ }
+ a:hover {
+   text-decoration: none;
+ }
+ ul li {
+   list-style: none;
+ }
+ img {
+   vertical-align: top;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-size: inherit;
+   font-weight: 400;
+ }
+ 
+
+
+
+
+
+.body{
+   font-family: 'Roboto';  
+   font-size: 14px;
+}
+ .wrapper{
+  display: flex;
+  flex-direction: column;
+ }
+.content{
+  flex: 1 1 auto;
+}
+.footer{
+  flex: 0 0 184px;
+}
+
+
+ .container{
+    max-width: 1100px;
+    margin: 0 auto;
+ }
+
+.nav{
+   background-color: #EFEFEF;
+   height: 50px;
+}
+
+ .nav_elements{
+    display: flex;
+    justify-content: center;
+    padding: 16px 0px;
+ }
+
+.nav_elements a{
+   margin-right: 30px;
+   font-family: Roboto;
+   line-height: 16px;
+   color: #333333;
+}
+.nav_elements a:hover{
+  color: #66C05D;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+.nav_elements li:last-child{
+   margin-right: 0px;
+}
+
+/*block logotel*/
+
+.logotel{
+ 
+   border: 1px solid #EFEFEF;
+}
+.logotel__row{
+   display: flex;
+   justify-content: space-between; 
+}
+
+.logotel__item{
+   flex: 0 1 50%;
+}
+.first__row{
+   display: flex;
+  align-items: center;
+  margin-top: 20px;
+   
+ 
+}
+
+.second__row{
+   display: flex;
+  
+   justify-content: flex-end;
+ 
+}
+.img__logo{
+  margin-right: 20px;
+  
+}
+ 
+.text__logo{
+   
+   font-size: 36px;
+   line-height: 42.19px;
+   color: #66C05D;
+   letter-spacing: 0.1em;
+   font-weight: bold;
+   font-family: 'Roboto', sans-serif;
+  
+   
+}
+
+.recall__tel{
+   margin: 50px 0px 51px 0px;
+   margin-right: 40px;
+   color: #000000;
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+}
+
+
+.recall__button button{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-size: 14px;
+   padding: 10px 15px;
+  border: 2px solid #66C05D;
+   border-radius: 10px;
+   margin: 40px 0px 40px 0px;
+   color: #000000;
+   font-family: 'Roboto', sans-serif;
+   background: #FFFFFF;
+}
+.recall__button button:hover{
+  background-color: #22cf16;
+}
+
+/*block services*/
+.services{
+  background-color: #FFFFFF;
+  width: 675px;
+  margin: 0 auto;
+
+  
+}
+
+.services__ul{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.services__ul a{
+font-size: 16px;
+line-height: 19px;
+color: black;
+font-family: 'Roboto';
+}
+
+.services__ul a:hover{
+  color: #66C05D;
+}
+
+/*block superchair*/
+.superchair{
+  
+  background-image: url('./AnBl.images/backgr.png');
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.superchair h1{
+font-family: 'Roboto';
+font-weight: bold;
+font-size: 48px;
+color: #FFFFFF;
+padding-bottom: 50px;
+}
+.superchair p{
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #FFFFFF;
+  padding-bottom: 50px;
+  line-height: 20px;
+  max-width: 315px;
+  }
+.superchair button{
+  background: #66C05D;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 40px;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  padding: 12px 26px 13px 27px;
+
+}
+.superchair button:hover{
+  background-color: #69f894;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+
+
+/*specialprop*/
+.specialprop__container{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.specialprop{
+  background-color: #EFEFEF;
+}
+
+.specialprop__row{
+  display: flex;
+  margin-top: 16.45px;
+  border: 1px solid rgb(245, 13, 13);
+}
+@media(max-width: 1137px){
+  .specialprop__row{
+    flex-wrap: wrap;
+  }
+}
+
+.specialprop__specialprop{
+  flex: 0 1 25%;
+  background-color: #FFFFFF;
+  border: 1px solid rgb(17, 13, 245);
+  display: flex;
+}
+
+
+
+.specialprop__title__text{
+  color: #000000;
+  text-align: left;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 24px;
+
+}
+.specialprop__title{
+  padding: 80px 0px 21.55px 0px;
+  border: 1px solid black;
+  background-image: url('./AnBl.images/car.svg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.item__image{
+  text-align: center;
+ border: 1px solid rgb(13, 245, 245);
+ margin: 25px 65px 20px;
+
+}
+.item__text{
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+  margin: 0 30px 20px;
+  
+  
+}
+.item__price{
+  font-family: 'Roboto';
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin: 0 88px 20px 87px;
+}
+.item__button button{
+  margin: 0 63px 20px 62px;
+  background-color : #66C05D;
+  border-radius: 30px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: center;
+  padding: 9px 40px 9px 39px;
+  color: #EFEFEF;
+}
+.item__button button:hover{
+  background-color : #2edb1e;
+}
+
+
+/*bonusandpresents*/
+.bonusandpresents{
+  background-color: #EFEFEF;
+}
+
+.bonusandpresents__row{
+  display: flex;
+  padding: 100px 0 132px 0;
+}
+@media(max-width: 1137px){
+  .bonusandpresents__row{
+    flex-wrap: wrap;
+  }
+  .bonusandpresents__row{
+    padding: 20px 0 20px 0;
+  }
+  .bap__item{
+    margin-top: 10px;
+  }
+  .bonusandpresents__bonusandpresents:last-child{
+    margin-top: 10px;
+  }
+}
+
+
+.bonusandpresents__bonusandpresents{
+  flex: 0 1 50%;
+  margin-right: 30px;
+  border: 1px solid #b8eb00;
+  background-color: #66C05D;
+  display: flex;
+  min-width: 413px;
+}
+
+.bonusandpresents__bonusandpresents:last-child{
+  margin-right: 0px;
+
+}
+.welcome{
+  flex-direction: column;
+
+}
+
+.bonusandpresents__label__text h3{
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: 1px solid darkred;
+  margin: 35px 0px 25px 40px;
+ 
+ 
+}
+.bonusandpresents__label__text p{
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding: 0 0px 25px 40px;
+  line-height: 20px;
+
+}
+
+.bonusandpresents__label__text{
+  display: flex;
+
+}
+.bap__elem{
+  flex: 1 1 50%;
+  border: #1694cf 1px solid;
+  
+}
+.bonusandpresents__label__pict{
+  flex: 0 1 50%;
+  align-self: center;
+  border: #cf5a16 1px solid;
+  position: relative;
+}
+
+.pict__1{
+  background-color: #66C05D;
+}
+.pict__2{
+  position: absolute;
+  top: 14.82px;
+  right: 16.11px;
+  bottom: 14.77px;
+  left: 16.15px;
+}
+
+.bap__input{
+  background-color: #FFFFFF;
+  color: #C4C4C4;
+  padding: 9px 0px 9px 25px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 16px;
+  
+}
+
+.bap__elem form{
+  padding: 0 0 35px 40px;
+}
+
+.bonusandpresents__label__pict{
+  max-width: 140px;
+  margin-right: 45px;
+}
+
+.bonusandpresents__recall__button button{
+  margin: 0 0 35px 40px;
+  color: #FFFFFF;
+  background-color: #66C05D;
+  border: 1px solid #FFFFFF;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+
+/*footer*/
+.footer__row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid blue;
+}
+@media(max-width: 1137px){
+  .footer__row{
+    flex-wrap: wrap;
+  }
+  .footer__rowrow{
+    margin: 10px;
+  }
+}
+
+.footer__link{
+  border: 2px solid #66C05D;
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin-right: 20px;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer__link:hover{
+  border: 3px solid #07ff66;
+  box-shadow: 10px #d1e42d;
+}
+
+.yutoobe{
+  background-image: url('./AnBl.images/1youtoobe.svg');
+}
+.vk{
+  background-image: url('./AnBl.images/2vk.png');
+}
+.fb{
+  background-image: url('./AnBl.images/3facebook.png');
+}
+.inst{
+  background-image: url('./AnBl.images/4insta.svg');
+}
+
+.footer__ul{
+  display: flex; 
+}
+
+.footer__addinf{
+  background-color: #EFEFEF;
+  
+}
+.footerad_row{
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.adress{
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.addinf__text{
+  color: #828282;
+  font-size: 12px;
+  font-family: 'Roboto';  
+}
+.footerad_row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 1 футер не везеде наследует шрифт
+2 как раздвинуть блокт с 4 стульями что бы они не выходили за границу контейнера а сами усменьшались??(последний почему то выходит за границу контейнера при исп margin)*/
